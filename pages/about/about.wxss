@@ -1,0 +1,4 @@
+/* pages/about/about.wxss */
+.viewNr{
+  width: 80%;padding: 0% 10% 5% 10%;
+}

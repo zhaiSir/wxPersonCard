@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/second/second",
+    "pages/third/third"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个体企业",
+    "navigationBarTextStyle": "black"
+  },
+
+"tabBar": {
+  "color": "black",
+  "selectedColor": "#d24a58",
+  "backgroundColor": "#F6F6F6",
+  "borderStyle": "black",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "联系"
+    },
+    {
+      "pagePath": "pages/second/second",
+      "text": "商城"
+    },
+    {
+      "pagePath": "pages/third/third",
+      "text": "消息"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于"
+    }
+  ]
+},
+
+"permission": {
+  "scope.userLocation": {
+    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+  }
+},
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

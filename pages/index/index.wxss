@@ -1,0 +1,49 @@
+/**index.wxss**/
+.TopIndex{
+  margin-top: 20px;
+  background-color: #1aaa1a;
+  width: 100%;
+  text-align: center;
+  /* padding: 60rpx 0; */
+  height: 361rpx
+}
+
+.img{width:100%;height: 100%}
+
+.IndexMore{
+  width: 80%;
+  padding:3% 10% 5% 10%;
+}
+
+.IndexMore text{
+  width:100%;
+  display:block;
+  border-bottom: 2rpx #baaccffa solid;
+  padding:25rpx 0;
+  font-size: 12pt;
+  
+}
+
+.footer{
+  font-size: 10pt;
+  color:#cacaca;width:100%;text-align:center;
+}
+
+.IndexBtn{
+  width:80%;
+  padding:10% 10% 5% 10%;
+  margin-top: 150px;
+}
+
+button{
+  border-radius: 50px;
+  background-color: rgba(0, 4, 255, 0.548);
+  border:2rpx #baaccffa solid
+}
+button::after{
+  border:none;
+}
+
+/* .tellMore image{
+  width: 5%;float: left;margin-top:28rpx;margin-right:20rpx
+} */
